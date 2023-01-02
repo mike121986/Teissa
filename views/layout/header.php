@@ -49,7 +49,7 @@
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                    <i class="bi bi-bar-chart-steps"></i>
                 </button>
-                <div class="collapse navbar-collapse text-center" id="navbarText">
+                <div class="collapse navbar-collapse text-center" id="navbarText" >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item listPRod">
                             <a class="nav-link linkProd" onmouseover="toggleMenuTeiisa('SubmenulinkProd')" aria-current="page" href="#">Productos Especializados</a>
@@ -78,7 +78,7 @@
                         </li>
                         <li class="nav-item listPRod">
                             <a class="nav-link linkProd" href="#" onmouseover="toggleMenuTeiisa('SubmenulinkLinea')">Productos de Linea</a>
-                            <ul class="SubmenulinkLinea">
+                            <ul class="SubmenulinkLinea" >
                               <li><a href="#">Tubería Sanitaria</a> </li>
                               <li><a href="#">Tubería Ornamental</a> </li>
                               <li><a href="#">Tubería cuadrada PTR</a> </li>

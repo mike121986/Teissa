@@ -9,17 +9,25 @@ function toggleMenuTeiisa(clase){
     }else{ 
         if(nameClassMenu != clase){
             outMenuTeissa(nameClassMenu,clase);
+        }else if(nameClassMenu == clase){
+            outMenuTeissa(nameClassMenu,clase)
         }
     }
 }
 
 function outMenuTeissa(closeClase,classToChange){
     $("."+closeClase).css('display','none');
-    nameClassMenu = classToChange;
-    openSubmenu(classToChange);
+    if(closeClase != classToChange){
+        nameClassMenu = classToChange;
+        openSubmenu(classToChange);
+    }
 
 }
 
 function openSubmenu(claseOpen){
     $("."+claseOpen).css('display','block');
+}
+
+function onMouseOutTeissa(){
+    outMenuTeissa(nameClassMenu,null)
 }
