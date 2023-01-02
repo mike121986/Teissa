@@ -51,7 +51,7 @@
                 </button>
                 <div class="collapse navbar-collapse text-center" id="navbarText" >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item listPRod">
+                        <li class="nav-item listPRodEsp">
                             <a class="nav-link linkProd" onmouseover="toggleMenuTeiisa('SubmenulinkProd')" aria-current="page" href="#">Productos Especializados</a>
                             <ul class="SubmenulinkProd">
                               <li><a href="#">TANQUES SENCILLOS</a> </li>
@@ -76,7 +76,7 @@
                               <li><a href="#">CENTRIFUGAS</a> </li>
                             </ul>
                         </li>
-                        <li class="nav-item listPRod">
+                        <li class="nav-item listPRodLinea">
                             <a class="nav-link linkProd" href="#" onmouseover="toggleMenuTeiisa('SubmenulinkLinea')">Productos de Linea</a>
                             <ul class="SubmenulinkLinea" >
                               <li><a href="#">Tubería Sanitaria</a> </li>
@@ -92,7 +92,7 @@
                               <li><a href="#">Conexiones industriales</a> </li>
                             </ul>
                           </li>
-                        <li class="nav-item listPRod">
+                        <li class="nav-item listPRodser">
                             <a class="nav-link linkProd" href="#" onmouseover="toggleMenuTeiisa('SubmenulinkServicios')">Servicios</a>
                             <ul class="SubmenulinkServicios">
                               <li><a href="#">Tubería Sanitaria</a> </li>
