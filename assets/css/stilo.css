@@ -9,7 +9,7 @@
 	eslogan: a5a5a5*/
 /* container-teisa */
 .container-teissa {
-	border: 1px solid red;
+	border: 10px solid blue;
 	width: 100%;
 	padding-right: 0.75rem;
 	padding-left: 0.75rem;
@@ -18,11 +18,12 @@
   }
 	/* logo header */
 #teissa{
+	border: 1px solid red;
 	color: #0070c0;
 	font-weight: bolder;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: xx-large;
-
+	width: 50%;
 }
 #teissa::after{
 	content: '| aceros inoxidables';
@@ -57,3 +58,37 @@
 	font-size: 18px;
 	text-decoration: none;
 }
+
+figure svg{
+	border: 1px solid green;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	width: 100%;
+}
+
+.cuadradoEjemplo{
+	position: relative;
+	top: 5px;
+	left: 0px;
+	width: 100%;
+	height: 450px;
+	background-color: green;
+	
+}
+.cuadradoEjemplo p{
+	color: white;
+	position: relative;
+	left: 40%;
+	top: 50%;
+}
+
+/* @media screen and (min-width: 360px) {
+	#teissa{
+		color: #0070c0;
+		font-weight: bolder;
+		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1.2rem;
+		width: auto;
+	}
+} */

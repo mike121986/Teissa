@@ -15,8 +15,11 @@
             </footer>
         </div>
     </div>
-
+    
     <script>
+        $(document).ready(function(){
+             $(".owl-carousel").owlCarousel();
+        });
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
