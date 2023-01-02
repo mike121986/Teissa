@@ -17,8 +17,7 @@
 	margin-left: auto;
   }
 	/* logo header */
-#teissa{
-	border: 1px solid red;
+#teissa, .titleTeissa{
 	color: #0070c0;
 	font-weight: bolder;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,7 +33,7 @@
 	border: 1px solid red;
 }
 
-/* boton comtacto */
+/* boton contacto */
 .btnContactoRedirect{
 	background-color: #0070c0;
 	border: none;
@@ -59,30 +58,50 @@
 	text-decoration: none;
 }
 
-figure svg{
-	border: 1px solid green;
-	position: relative;
-	top: 5px;
-	left: 0px;
-	width: 100%;
+.owl-carousel .imagens{
+	max-height: 460px;
+	min-height: 460px;
 }
-
-.cuadradoEjemplo{
-	position: relative;
-	top: 5px;
-	left: 0px;
+.owl-carousel .imagens img{
 	width: 100%;
 	height: 450px;
-	background-color: green;
-	
-}
-.cuadradoEjemplo p{
-	color: white;
-	position: relative;
-	left: 40%;
-	top: 50%;
 }
 
+#weare{
+	display: flexbox;
+	border-left: 1px solid gray;
+	
+}
+#weare .titleTeissa{
+	text-align: center;
+	width: 100%;
+}
+#weare p{
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+/* menu desplegable */
+#navbarText ul li .linkProd{
+	font-size: 1.2rem;
+}
+#navbarText ul li .linkProd:hover{
+	border-bottom: 2px solid #F13006;
+      border-radius: 4px;
+}
+
+.listPRod ul {
+	list-style: none;
+	text-align: left;
+}
+
+.SubmenulinkProd,.SubmenulinkLinea,.SubmenulinkServicios{
+	display: none;
+	position: absolute;
+	height: auto;
+	background-color: #e7e7e7;
+	z-index: 99;
+}
 /* @media screen and (min-width: 360px) {
 	#teissa{
 		color: #0070c0;
@@ -90,5 +109,10 @@ figure svg{
 		font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 		font-size: 1.2rem;
 		width: auto;
+	}
+
+	.owl-carousel{
+		width:100%;
+    	height:auto; 
 	}
 } */
